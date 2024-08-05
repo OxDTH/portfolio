@@ -4,8 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FLATICON ===============-->
-    <link rel="stylesheet" href="" />
+    <!--=============== BOXICONS LINK ===============-->
+      <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SCROLL LINK ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!--=============== REMIX ICONS LINK ===============-->
+      <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!--=============== SWIPER CSS ===============-->
     <link rel="stylesheet" href="" />
@@ -17,27 +29,217 @@
   </head>
   <body>
     <!--=============== HEADER ===============-->
-    <header class="header"></header>
+    <header>
+      <a href=""></a>
+        <a href="#" class="logo"> Ritik <span>Mohapatra</span></a>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== BREADCRUMB ===============-->
-      <section class="breadcrumb"></section>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-      <!--=============== ACCOUNTS ===============-->
-      <section class="accounts"></section>
+        <ul class="navlist">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="top-btn">
+          <a href="#" class="h-btn">Contact Me</a>
+        </div>
+    </header>
 
-      <!--=============== NEWSLETTER ===============-->
-      <section class="newsletter"></section>
-    </main>
+    <!--=============== RITIK ===============-->
+    <section class="ritik" id="home">
+      <div class="main-content" data-aos="fade-in">
+        <h4>Hi, There!</h4>
+        <h1>I'm <span>Ritik Mohapatra</span></h1>
+        <p>Description is the high time is the game of the home of ok tisk of the risk of the game is the high of the total mask of the umbrella</p>
+        <div class="social">
+          <a href="https://github.com/OxDTH"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/ritik-mohapatra45/"><i class="ri-linkedin-fill"></i></a>
+          <a href="https://www.instagram.com/ritik_mohapatra_rk/"><i class="ri-instagram-fill"></i></a>
+          <a href="https://x.com/RitikMohapatra4"><i class="ri-twitter-x-fill"></i></a>
+        </div>
+
+        <div class="main-btn">
+          <a href="#" class="btn">Hire me</a>
+          <a href="#" class="btn btn2">Download CV</a>
+        </div>
+
+        <img src="/img/[removal.ai]_10bd64cf-c345-4e50-864c-efec2ae9434e_20231225134822_IMG_1148.png" alt="" class="ritik__img" />
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about" id="about">
+      <div class="about-img" data-aos="zoom-in-down">
+        <img src="/img/3-2.JPG" alt="">
+      </div>
+
+      <div class="about-text" data-aos="zoom-in-up">
+        <h2>I am a <span>Web Developer</span> <br> & Video Editor
+        </h2>
+        <div class="exp-area">
+          <p class="exp">
+            Experience
+            <span>2 Years</span>
+          </p>
+
+          <p class="exp">
+            Speciality:
+            <span> Web Developer, Video Editing</span>
+          </p>
+
+          <p class="exp">
+            Address:
+            <span>Puri, Odisha</span>
+          </p>
+
+          <p class="exp">
+            Email:
+            <span>ritikmohapatra2017@gmail.com</span>
+          </p>
+
+          <p class="exp">
+            Phone:
+            <span>Will be DMed Over Contact</span>
+          </p>
+
+          <p class="exp">
+            Freelance:
+            <span>Available</span>
+          </p>
+        </div>
+        <a href="#" class="btn">View All Projects</a>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services" id="services">
+      <div class="center-text" data-aos="fade-down">
+        <h2>My <span>Services</span></h2>
+      </div>
+
+      <div class="services-content" data-aos="zoom-in-up">
+        <div class="box">
+          <img src="/img/development-web-development-svgrepo-com.svg" alt="">
+          <h3>WEB Developer</h3>
+          <p>Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic.
+          </p>
+          <a href="#">
+              Download Now
+              <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <div class="box">
+          <img src="/img/html-five-svgrepo-com.svg" alt="">
+          <h3>Frontend</h3>
+          <p>Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic.
+          </p>
+          <a href="#">
+              Download Now
+              <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <div class="box">
+          <img src="/img/editor-video-svgrepo-com.svg" alt="">
+          <h3>Video Editor</h3>
+          <p>Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic.
+          </p>
+          <a href="#">
+              Download Now
+              <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio" id="portfolio">
+      <div class="center-text" data-aos="fade-down">
+        <h2>My <span>Portfolio</span></h2>
+      </div>
+
+      <div class="Portfolio-content" data-aos="zoom-in-up">
+        <div class="row">
+          <img src="img/Dth aapale store.png" alt="">
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Accessories Store</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Aapale Accessories Store</h4>
+        </div>
+
+        <div class="row">
+          <img src="img/patch notes.png" alt="">
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Accessories Store</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Aapale Accessories Store</h4>
+        </div>
+
+        <div class="row">
+          <img src="img/Ecommerce.png" alt="">
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Accessories Store</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Aapale Accessories Store</h4>
+        </div>
+      </div>
+    </section>
+    <!--=============== CONTACT ===============-->
+    <section class="contact" id="contact" data-aos="fade-down">
+      <div class="center-text">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-form" data-aos="zoom-in">
+          <form action="">
+            <input type="text" placeholder="Your name" required>
+            <input type="text" placeholder="Email Address.." required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here... required"></textarea>
+            <input type="submit" name="" value="Send Message" class="send-btn">
+          </form>
+      </div>
+    </section>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+    <div class="footer">
+      <div class="copyright">
+        <p>&#169; 2024 Aapale, All Rights Reserved.</p>
+      </div>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+      <a href="#home" class="scroll-top">
+        <i class="ri-arrow-up-circle-fill"></i>
+      </a>
+    </div>
 
     <!--=============== MAIN JS ===============-->
-    <script src=""></script>
+    <script src="ritik.js"></script>
+
+
+    <!--=============== SCROLL LINK ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
   </body>
 </html>
